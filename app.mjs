@@ -3,8 +3,8 @@ import Google from "./crawlers/Google.mjs";
 import PQueue from "p-queue";
 import PagesJaunes from "./crawlers/PagesJaunes.mjs";
 
-const queue = new PQueue({ concurrency: 10 });
-const headless = true
+const queue = new PQueue({ concurrency: 1 });
+const headless = false
 const name = "crawler"
 
 const c = new Crawler({ name, headless })
@@ -35,7 +35,6 @@ for (const keyword of c.keywords) {
         } catch (error) {
             return
         }
-
     })
 
 }

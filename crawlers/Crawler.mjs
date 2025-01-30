@@ -24,15 +24,15 @@ class Crawler {
 
     keywords = [
         // --- Déménagement
-        "déménagement",
-        "déménageur",
-        "transport de meubles",
-        "garde-meubles",
-        "déménagement international",
-        "services de relocation",
-        "location de camion de déménagement",
-        "transport",
-        "logistique",
+        // "déménagement",
+        // "déménageur",
+        // "transport de meubles",
+        // "garde-meubles",
+        // "déménagement international",
+        // "services de relocation",
+        // "location de camion de déménagement",
+        // "transport",
+        // "logistique",
         // --- formation
         "formation",
         "centre de formation",
